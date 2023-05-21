@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+ul {
+   list-style-type: square;
+   }
+li::before {
+    content: '&';
+    }
+ul {
+     list-style-type:  none;
+    }
+ul {
+    list-style-image: url(/example/image/book.png);
+}
+li {
+    display: inline-block;
+    padding: 10px;
+}
+td {
+    background-color: #ececec;
+    padding: 0.5rem;
+}
+table {
+    border: 4px double #333;
+    border-spacing: 4px;
+}
+td {
+    color: #fff;
+    background-color: #4c715b;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+<ol>
+  <li>Half-Life 2: Episode One</li>
+  <li>Half-Life 2: Episode Two</li>
+  <li>Half-Life 2: Episode Three</li>
+</ol>
+<ul>
+  <h3>Работы Микеланджело</h3>
+  <li>Бахус</li>
+  <li>Давид</li>
+  <li>Пьета</li>
+</ul>
+<ol start="11">
+  <li>Николай I</li>
+  <li>Александр II</li>
+  <li>Александр III</li>
+  <li>Николай II</li>
+</ol>
+<ul>
+ <li>Российские императоры
+  <ul>
+   <li>Пётр I Великий</li>
+   <li>Екатерина I</li>
+   <li>Пётр II</li>
+  </ul>
+ </li>
+</ul>
+<table>
+    <tr>
+        <th colspan="2">Черепашки-ниндзя</th>
+    </tr>
+    <tr><td>Имя</td><td>Оружие</td></tr>
+    <tr><td>Леонардо</td><td>Катаны</td></tr>
+    <tr><td>Рафаэль</td><td>Кинжалы-сай</td></tr>
+    <tr><td>Донателло</td><td>Шест-бо</td></tr>
+    <tr><td>Микеланджело</td><td>Нунчаки</td></tr>
+</table>
+</body>
+</html>
